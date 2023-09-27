@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 replicate.Client(api_token=os.environ.get("REPLICATE_API_TOKEN "))
 st.set_page_config(page_title="Stable diffusion", page_icon=":star-struck:")
-st.sidebar.header("Restorantion")
+st.sidebar.header("Stable diffusion")
 st.title("Stable diffusion :star-struck:")
 st.write("Tool che permette di creare immagini da prompt, usando diversi meccanismi e parametri tramite il modello 'Stable diffusion'")
 st.write("Puoi usare questo link per scrivere un prompt adeguato: https://huggingface.co/spaces/Gustavosta/MagicPrompt-Stable-Diffusion")
